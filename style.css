@@ -2,23 +2,43 @@ body{
     background-color: burlywood;
     width: 100%;
     height: auto;
+    background-color: brown;
 }
+   
 #main{
     display: flex;
+    height: 500px;
+}
+#left h1{
+    font-size: 2vw;
 }
 #left{
     text-align: center;
     font-size: larger;
-    width: 50%;
+    width: 50vw;
 }
 #right{
-    width: 50%;
+    width: 50vw;
 }
 #left img{
-    width: 100%;
-    height: 100%;
+    width: 20vw;
+    height: 20vw;
 }
 #right img{
-    max-width: 100%;
-    height: 100%;
+    max-width: 100vw;
+    height: auto;
+}
+#middle{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    background-color: aquamarine;
+}
+#frst{
+    width: 40vw;
+    margin: 5vw;
+}
+#scnd{
+    width: 40vw;
+    margin: 5vw;
 }
