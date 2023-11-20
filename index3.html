@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1{
+            width:1200px;
+            height: 30px;
+            background-color: darkred;
+        }
+        @media only screen and (max-width:600px) {
+           .d1 {background-color: black;} 
+        }
+        @media only screen and (min-width:600px) {
+           .d1 {background-color: cornflowerblue;} 
+        }
+        @media only screen and (min-width:700px) {
+           .d1 {background-color: brown;} 
+        }
+        @media only screen and (min-width:800px) {
+           .d1 {background-color: plum;} 
+        }
+        @media only screen and (min-width:900px) {
+           .d1 {background-color: burlywood;} 
+        }
+        @media only screen and (min-width:1200px) {
+           .d1 {background-color: red;} 
+        }
+    </style>
+</head>
+<body>
+    <div class="d1"></div>
+    hello world
+    <div class="d1"></div>
+    hello world
+    <div class="d1"></div>
+    hello world
+</body>
+</html>
